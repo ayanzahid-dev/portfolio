@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+
+  <!-- Header -->
+  <header id="header">
+    <h1>Ayanzahid</h1>
+    <p>Web Developer Intern</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="fade-in">
+    <img src="WhatsApp Image 2025-07-06 at 3.49.50 PM.jpeg" alt="Profile Picture" />
+    <div>
+      <h2>About Me</h2>
+      <p>I'm a passionate Web Developer Intern. I love building clean, user-friendly interfaces. I'm always learning and growing my skills in frontend development.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="fade-in">
+    <h2>Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>A modern responsive website using HTML, CSS, JS.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>An interactive JavaScript game project.</p>
+        <a href="#">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="fade-in">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+      <p id="formMsg"></p>
+    </form>
+  </section>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollTopBtn">↑</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
