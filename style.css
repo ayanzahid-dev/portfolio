@@ -40,7 +40,12 @@ header nav a:hover {
 section {
   padding: 2rem 0;
 }
-
+section h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  
+  
+}
 /* About */
 #about {
   display: flex;
